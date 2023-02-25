@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './CardFilm.css'
+import './media.css'
 class CardFilm extends Component {
   render() {
     return (

@@ -1,0 +1,21 @@
+@media screen and (max-width:1000px) {
+.footer_cover {
+    overflow: hidden !important;
+}
+.footer {
+    width: 85% !important;
+}
+
+.footer_top h2 {
+    font-size: 35px !important;
+
+}
+.footer_top p {
+    font-size: 17px !important;
+}
+.footer_top {
+    width: 850px !important;
+}
+
+    
+}

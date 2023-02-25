@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
+import './Media.css'
 import logo from "./img/Логотип.png";
 
 class Navbar extends Component {
@@ -8,6 +9,11 @@ class Navbar extends Component {
       <>
         <div>
           <div className="navbar">
+
+          <button className="flex_hide unhide">
+                <i class="bx bx-search"></i>
+              </button>
+
             <div className="navbar_logo">
               <div className="logo">
                 <img src={logo} alt="#" />
@@ -19,6 +25,9 @@ class Navbar extends Component {
                 <i class="bx bxl-twitter"></i>
               </div>
             </div>
+
+            <button className="flex_enter unhide">Войти</button>
+ 
             <div className="navbar_menu">
               <ul>
                 <li> Афиша </li>
@@ -30,7 +39,7 @@ class Navbar extends Component {
                 <li> Категории</li>
               </ul>
             </div>
-            <div className="navbar_buttons">
+            <div className="navbar_buttons hide">
               <button>
                 <i class="bx bx-search"></i>
               </button>

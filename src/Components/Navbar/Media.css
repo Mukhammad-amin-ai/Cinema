@@ -1,0 +1,14 @@
+@media screen and (max-width:1000px) {
+    .navbar{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .hide{
+        display: none;
+    }
+    .unhide{
+        display: block;
+    }
+
+}

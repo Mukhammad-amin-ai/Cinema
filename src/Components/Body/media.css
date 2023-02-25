@@ -1,0 +1,34 @@
+@media screen and (max-width:1000px) {
+    .Page_title {
+        height: 600px !important;
+
+    }
+
+    .title_right {
+        width: 200px !important;
+
+    }
+
+    .cover {
+        width: 70% !important;
+    }
+
+    .title_left {
+        width: 629px !important;
+        height: 222px;
+    }
+
+    .title_left h1 {
+        font-size: 40px !important;
+    }
+
+    .title_left p {
+        font-size: 15px;
+    }
+
+    .title_right {
+        flex-direction: column;
+    }
+
+
+}

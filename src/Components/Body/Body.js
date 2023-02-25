@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import './media.css'
 import "./body.css";
 
 class Body extends Component {
